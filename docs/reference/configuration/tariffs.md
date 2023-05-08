@@ -263,7 +263,7 @@ Neben der Optimierung der Ladeplanung nach Kosten kann diese auch nach anderen K
 ```yaml
 planner:
   type: grünstromindex
-  zip: meine PLZ # PLZ mit führender Null mit in "" setzen
+  zip: meine PLZ # Wenn die PLZ mit einer 0 beginnt, dann muss sie in "" angegeben werden --> "04653"
 ```
 
 ### `type:` **`electricitymaps`**
